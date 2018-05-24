@@ -11,4 +11,8 @@ for x in b:
     else:
         e.append(x)
 e.sort()
-print (e)
+f=[]
+for x in e:
+    if x not in f:
+        f.append(x)
+print (f)
